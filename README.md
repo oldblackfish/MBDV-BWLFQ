@@ -1,6 +1,6 @@
 **Official PyTorch code for the ICME2025 paper "Mamba-Based Blind Stitched Wide Field of View Light Field Image Quality Assessment via Dual-Viewport Sampling". Please refer to the [paper](https://ieeexplore.ieee.org/document/11209926) for details.**
 
-![image](https://github.com/oldblackfish/FABLFQA/blob/main/fig/framework.png)
+![image](https://github.com/oldblackfish/MBDV-BWLFQ/blob/main/fig/ICME2025_Poster.png)
 
 **Note: First, we convert the dataset into H5 files using MATLAB. Then, we train and test the model in Python.**
 
