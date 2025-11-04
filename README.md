@@ -5,15 +5,15 @@
 **Note: First, we convert the dataset into H5 files using MATLAB. Then, we train and test the model in Python.**
 
 ### Generate Dataset in MATLAB
-Convert the dataset into h5 files, and then put them into './Datasets/NBU_FABLFQA_5x64x64/':
+Convert the dataset into h5 files, and then put them into './Datasets/WLFI_224x224_dual/':
 ```
- ./FABLFQA/Datasets/Generateh5_for_NBU_Dataset.m
+ ./MBDV-BWLFQ/Datasets/Generateh5_for_Dataset.m
 ```
     
 ### Train
 Train the model using the following command:
 ```
-python Train.py  --trainset_dir ./Datasets/NBU_FABLFQA_5x64x64/
+python Train.py
 ```
 
 ### Test Overall Performance
